@@ -134,6 +134,7 @@ footer{
     width: 100%;
     background-color: #171717;
     text-align: center;
+    color: #FFFFFF;
 }
 .footer--cta button {
     background-color: #16a941;
@@ -153,11 +154,21 @@ footer{
     height: 228px;
     padding: 120px 0;
     background-color: #101010;
+    display: flex;
+    justify-content: space-between;
 }
 .s1{
-    margin: right 50px; ;
+    width: 81px;
+    height: 68px;
 }
-
+.s{
+    width: 381px;
+    height: 44px;
+    background-color: black;
+}
+.ss{
+    border: none;
+}
 @media  screen and (min-width:601px) and ( max-width:1028px){
     .title{
         font-size: 36px;
@@ -177,9 +188,6 @@ footer{
     }
 }
 @media screen and (max-width:600px){
-        body{
-            background-color:  #16a94a;
-        }
         .title{
             font-size: 24px;
         }
